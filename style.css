@@ -1,0 +1,312 @@
+<style type="text/css"> body {
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    max-width: 100%;
+    margin: 70px 0 0 0;
+    border-top: solid 4px #fec20e;
+    background-color: #ffffff;
+    padding: 0;
+}
+
+.footer_box {
+    width: 1000px;
+}
+
+.footer_logo {
+    padding: 40px 50px 40px 23px;
+    float: left;
+}
+
+.footer_textbox {
+    text-align: left;
+    float: left;
+}
+
+.footer_textbox p {
+    color: #222;
+    font-size: 13px;
+    letter-spacing: -0.05px;
+    line-height: 19px;
+    margin: 21px 0;
+    font-family: "nanumgothic";
+}
+
+.title {
+    height: 469px;
+    background: url(http://robolink.co.kr/imgs/20170801_title.png) 50% 0 no-repeat;
+}
+
+.main_text {
+    height: 168px;
+    background: url(img/subtitle_01.png) 50% 0 no-repeat;
+    margin-bottom: 20px;
+}
+
+.main_info {
+    height: 337px;
+    background: url(img/info.png) 50% 0 no-repeat;
+}
+
+.category_bg {
+    height: 450px;
+    background: url(img/category_bg.png) 50% 0 no-repeat;
+    text-align: center;
+}
+
+.top {
+    height: 87px;
+    max-width: 100%;
+    background-color: #fff;
+    border-bottom: solid 2px #fec20e;
+}
+
+.grid {
+    width: 1027px;
+}
+
+.top_box {
+    width: 1000px;
+}
+
+.top_box .gnb {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 36px 0 0 0;
+    float: right;
+}
+
+.logo {
+    padding-top: 34px;
+    padding-bottom: 36px;
+    float: left;
+}
+
+.#gnb {
+    float: right;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb li line_end {
+    margin-right: 10px;
+}
+
+.gnb li {
+    float: left;
+    margin-right: 71px;
+}
+
+.gnb_layer {
+    background: #f9f9f9 left top repeat-x;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    float: right;
+    position: absolute;
+}
+
+.gnb_layerInner {
+    width: 614px;
+    overflow: hidden;
+    margin: 0;
+    padding: 4px 25px;
+    float: right;
+}
+
+.gnb_layer ul {
+    float: left;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.gnb_layer ul.lineEnd {
+    margin-right: 0;
+}
+
+.gnb_layer ul li {
+    height: 28px;
+}
+
+.gnb_layer ul li a {
+    color: #000;
+    font-size: 13px;
+    letter-spacing: -0.4px;
+    line-height: 13px;
+    font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
+    background-color: none;
+    height: 15px;
+}
+
+.gnb_layer ul li a:hover {
+    color: #ff7800;
+}
+
+.g_menu_1 {
+    padding-left: 14px;
+    width: 135px;
+}
+
+.g_menu_2 {
+    width: 106px;
+    padding: 0;
+}
+
+.g_menu_3 {
+    width: 142px;
+    padding: 0;
+}
+
+.g_menu_4 {
+    width: 102px;
+    padding: 0;
+}
+
+.g_menu_5 {
+    width: 80px;
+    padding: 0;
+}
+
+a {
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.gnb_layer {
+    width: 1000px;
+    height: 121px;
+}
+
+#gnb {
+    text-decoration: none;
+}
+
+#effect {
+    width: 100%;
+    padding: 0.4em;
+    text-align: center;
+    margin-top: -5px;
+    border-bottom: solid 2px #fec20e;
+}
+
+.category_top {
+    margin-bottom: 10px;
+    width: 1000px;
+    height: 220px;
+}
+
+.category_l {
+    margin-right: 10px;
+    float: left;
+}
+
+.category_m {
+    margin-right: 10px;
+    float: left;
+}
+
+.category_r {
+    float: left;
+}
+
+.sub_main {
+    max-width: 1000px;
+}
+
+.sub_title {
+    margin-top: 50px;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #e6e6e6;
+    width: 1000px;
+    height: 22px;
+}
+
+.title_text {
+    float: left;
+}
+
+.nav {
+    font-family: "돋움", "Dodum", "나눔 고딕", "Nanum Gothic", "맑은 고딕", "Malgun Gothic", "Apple Gothic", sans-serif;
+    font-size: 9pt;
+    color: #555;
+    float: right;
+}
+
+.content {
+    width: 1000px;
+    max-width: 1000px;
+    margin: 20px auto 50px;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 30px;
+    height: 105px;
+    background: url(http://robolink.co.kr/imgs/main_banner_01.png) 50% 0 no-repeat;
+}
+
+.news_one {
+    height: 160px;
+    vertical-align: top;
+    margin: 20px 0 0 0;
+    padding-bottom: 20px;
+}
+
+.news_img {
+    width: 140px;
+    height: 140px;
+    background-color: #666;
+    float: left;
+}
+
+.detail {
+    font-family: "나눔 고딕", "Nanum Gothic", "맑은 고딕", "Malgun Gothic", "Apple Gothic", sans-serif;
+    padding: 10px 0 10px 30px;
+    text-align: left;
+    float: left;
+}
+
+.detail_title {
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.detail_text {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.detail_date {
+    font-size: 10px;
+    color: #09a09e;
+}
+
+.camp17img {
+    background-image: url(http://robolink.co.kr/imgs/20170728_newsimg_17camp_img_1.png);
+    height: 1000px;
+}
+
+.camp17photo {
+    background-image: url(http://robolink.co.kr/imgs/20170801_newsimg_17camp_photo_1.png);
+    height: 770px;
+}
+
+</style>
